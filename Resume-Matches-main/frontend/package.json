@@ -1,0 +1,44 @@
+{
+  "name": "vite-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.26.0",
+    "@react-spring/web": "^9.7.5",
+    "@tailwindcss/vite": "^4.0.1",
+    "axios": "^1.7.9",
+    "buffer": "^6.0.3",
+    "html2pdf.js": "^0.10.2",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-pdf": "^7.7.0",
+    "react-router-dom": "^7.1.3",
+    "react-to-print": "^3.0.5",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss": "^4.0.1",
+    "tailwindcss-scrollbar": "^0.1.0",
+    "use-debounce": "^10.0.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  }
+}
